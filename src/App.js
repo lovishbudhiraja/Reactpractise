@@ -2,6 +2,7 @@ import './App.css';
 import HeaderSection from './header/Header';
 import BannerSection from './banner/banner';
 import ContentHome from './homeContent/content';
+import FormSubmission from './form/FormSection';
 
 // Normal Function
 
@@ -11,6 +12,7 @@ function App() {
       <HeaderSection></HeaderSection>
       <BannerSection></BannerSection>
       <ContentHome></ContentHome>
+      <FormSubmission></FormSubmission>
     </>
   );
 }

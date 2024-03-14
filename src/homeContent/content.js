@@ -1,6 +1,6 @@
 import PopuplarProducts from "./popularPrd";
 import ProductsForHome from "./homeproduct";
-
+import GalleryWithTabs from "./gallery";
 
 function ContentHome(){
     const propName = [
@@ -18,6 +18,7 @@ function ContentHome(){
         <>
             <PopuplarProducts></PopuplarProducts>
             <ProductsForHome name={propName}></ProductsForHome>
+            <GalleryWithTabs />
         </>
     )
 }
